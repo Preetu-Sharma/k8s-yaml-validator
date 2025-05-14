@@ -25,7 +25,7 @@ A powerful yet lightweight Python CLI tool to **validate Kubernetes YAML files**
 Make sure Python 3 is installed.
 
 ```bash
-git clone https://github.com/<your-username>/k8s-yaml-validator.git
+git clone https://github.com/Preetu-Sharma/k8s-yaml-validator.git
 cd k8s-yaml-validator
 pip install pyyaml
 ```
