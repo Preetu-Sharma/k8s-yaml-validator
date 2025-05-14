@@ -95,7 +95,9 @@ Want to add support for more resource types like `Job`, `CronJob`, `ConfigMap`?
 
 ## Contributing
 
-Feel free to fork and submit PRs! Star the repo if you find it helpful 
+Found it useful? Give the repo a ⭐️!
+Want to enhance it? Fork it, make improvements, and submit a PR!
+Got thoughts? Share your pros, cons, and improvement ideas — every contribution helps make this tool better.
 
 ---
 
