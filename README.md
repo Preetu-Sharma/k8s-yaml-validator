@@ -1,26 +1,26 @@
-# 🚀 Kubernetes YAML Validator Tool
+# Kubernetes YAML Validator Tool
 
 A powerful yet lightweight Python CLI tool to **validate Kubernetes YAML files** (single or multi-resource) for required and recommended best practices.
 
 ---
 
-## ✅ Features
+## Features
 
-- 🔍 **YAML Syntax Validation** – Detects parsing errors in YAML format.
-- 🧩 **Multi-resource Support** – Validates files containing multiple K8s resources separated by `---`.
-- 🧾 **Resource-specific Checks** – Validates required and best-practice fields for:
+- **YAML Syntax Validation** – Detects parsing errors in YAML format.
+- **Multi-resource Support** – Validates files containing multiple K8s resources separated by `---`.
+- **Resource-specific Checks** – Validates required and best-practice fields for:
   - `Pod`, `Deployment`, `Service`, `Ingress`
   - `PersistentVolume (PV)`, `PersistentVolumeClaim (PVC)`
   - `StatefulSet`, `DaemonSet`, `StorageClass`
-- ⚠️ **Recommended Field Warnings** – Warns when fields like `resources`, `securityContext`, `restartPolicy` are missing.
-- 🎨 **Color-coded Logs** – Clear console output using ANSI colors (green = success, red = error, yellow = warning).
-- 📦 **CLI Friendly** – Works directly from the command line.
-- 🔀 **Supports Short Names** – e.g., `po` for Pod, `deploy` for Deployment, `svc` for Service.
-- 🧱 **Extensible** – Easy to add more resources like `Job`, `CronJob`, `ConfigMap`, etc.
+- **Recommended Field Warnings** – Warns when fields like `resources`, `securityContext`, `restartPolicy` are missing.
+- **Color-coded Logs** – Clear console output using ANSI colors (green = success, red = error, yellow = warning).
+- **CLI Friendly** – Works directly from the command line.
+- **Supports Short Names** – e.g., `po` for Pod, `deploy` for Deployment, `svc` for Service.
+- **Extensible** – Easy to add more resources like `Job`, `CronJob`, `ConfigMap`, etc.
 
 ---
 
-## 📦 Installation
+## Installation
 
 Make sure Python 3 is installed.
 
@@ -32,13 +32,13 @@ pip install pyyaml
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ```bash
 python validator.py --path <file_or_directory> [--type <k8s_resource_type>]
 ```
 
-### 🔹 Examples
+### Examples
 
 Validate a Pod YAML file:
 
@@ -73,17 +73,17 @@ Supported `--type` values:
 
 ---
 
-## 📂 Output Example
+##  Output Example
 
 ```bash
-✅ pod.yaml YAML validation passed - No error found.
-⚠️  pod.yaml (doc #1): non-required field 'restartPolicy' is missing from Pod spec.
-✅ pod.yaml (doc #1): K8s validation passed: all required fields in Pod spec are present.
+ pod.yaml YAML validation passed - No error found.
+ pod.yaml (doc #1): non-required field 'restartPolicy' is missing from Pod spec.
+ pod.yaml (doc #1): K8s validation passed: all required fields in Pod spec are present.
 ```
 
 ---
 
-## 🧱 Extending the Tool
+## Extending the Tool
 
 Want to add support for more resource types like `Job`, `CronJob`, `ConfigMap`?
 
@@ -93,18 +93,12 @@ Want to add support for more resource types like `Job`, `CronJob`, `ConfigMap`?
 
 ---
 
-## 👨‍💻 Contributing
+## Contributing
 
-Feel free to fork and submit PRs! Star the repo if you find it helpful ⭐
-
----
-
-## 🪪 License
-
-This project is licensed under the [MIT License](LICENSE).
+Feel free to fork and submit PRs! Star the repo if you find it helpful 
 
 ---
 
-## 🙌 Author
+## Author
 
-Built by [Preetu Sharma](https://github.com/<your-username>) – DevOps | Kubernetes | Python Enthusiast 🚀
+Built by [Preetu Sharma](https://github.com/Preetu-Sharma) – DevOps | Kubernetes | Python Enthusiast 
